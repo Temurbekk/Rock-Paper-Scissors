@@ -54,7 +54,36 @@ header > h1{
     color: white;
 }
 
-.result > h1 {
+.result > p {
     text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+.choices{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: inline-block;
+
+}
+
+.choice:hover{
+    background: #E25840;
+    cursor: pointer;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
 }
 
