@@ -81,6 +81,8 @@ header > h1{
 #action-message {
     text-align: center;
     color: white;
+    text-decoration: none;
+    border: none;
     font-family: Asap, sans-serif;
     font-weight: bold;
     font-size: 40px;
